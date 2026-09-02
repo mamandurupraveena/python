@@ -25,7 +25,7 @@ print("Hello", name)
 
 ### example:
 
-name = "Praveena"  # string variable
+ 
 age = 20  # integer variable
 height = 5.6  # float variable
 is_student = True  # boolean variable
@@ -36,7 +36,7 @@ print("height:", height)
 print("is_student:", is_student)
 
 ##output:
-#name: Praveena
+
 #age: 20
 #height: 5.6
 #is_student: True
@@ -52,21 +52,13 @@ print("is_student:", is_student)
 # * set – for unordered collections of unique elements
 
 #example:
-name = "Praveena"  # str
-age = 20  # int
-height = 5.6  # float
-is_student = True  # boolean
+
+
 subjects = ["Python", "Git", "SQL"]  # list
 student_location = ("India", "AP")  # tuple 
 skills = {"Python", "Git", "SQL"}  # set
 student_details = {     
-    "name": "Praveena",
-    "age": 20,
-    "height": 5.6,
-   "is_student": True
 }  # dict
-
-
 
 print(type(name))
 print(type(age))
@@ -89,10 +81,8 @@ print(type(student_details))
 
  # type conversion ###
 # Type conversion means changing a value from one data type to another.
-# string-integer conversion
+# string-integerconversion
 
-name = "Praveena"
-age = int("20")
 print(age)  # 20
 print(type(age))  # <class 'int'>
 
