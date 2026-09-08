@@ -13,125 +13,41 @@
 # *Automation – Python can automate repetitive tasks such as file handling, data processing, and report generation.
 
 
-# simple example
-#input 
-name = "Praveena"
-print("Hello", name)
+# 1. Print name, age, and college
+name = "Praveen Reddy"
+age = 22
+college = "Your College Name"
 
-# output : Hello Praveena
-
-# 3. variables
-# variables are used to store data values
-
-### example:
-
- 
-age = 20  # integer variable
-height = 5.6  # float variable
-is_student = True  # boolean variable
-
-print("name:", name)
-print("age:", age)
-print("height:", height)
-print("is_student:", is_student)
-
-##output:
-
-#age: 20
-#height: 5.6
-#is_student: True
-
-#### data types ####
-# * int – for integers 
-# * float – for decimal numbers
-# * str – for strings
-# * bool – for boolean values
-# * list – for ordered collections
-# * tuple – for ordered, immutable collections
-# * dict – for key-value pairs
-# * set – for unordered collections of unique elements
-
-#example:
+print("Name:", name)
+print("Age:", age)
+print("College:", college)
 
 
-subjects = ["Python", "Git", "SQL"]  # list
-student_location = ("India", "AP")  # tuple 
-skills = {"Python", "Git", "SQL"}  # set
-student_details = {     
-}  # dict
+# 2. Take input and print welcome message
+user_name = input("Enter your name: ")
+print("Welcome", user_name, "!")
 
-print(type(name))
-print(type(age))
-print(type(height))
-print(type(is_student))
-print(type(subjects))
-print(type(student_location))
-print(type(skills))
-print(type(student_details))
 
-# output: 
-# <class 'str'>
-# <class 'int'>
-# <class 'float'>
-# <class 'bool'>
-# <class 'list'>
-# <class 'tuple'>
-# <class 'set'>
-# <class 'dict'>
+# 3. Add two numbers
+num1 = int(input("Enter first number: "))
+num2 = int(input("Enter second number: "))
 
- # type conversion ###
-# Type conversion means changing a value from one data type to another.
-# string-integerconversion
+sum = num1 + num2
 
-print(age)  # 20
-print(type(age))  # <class 'int'>
+print("Sum:", sum)
 
-# integer-string conversion
-int_value = 20
-str_value = str(int_value)
-print(str_value)  # "20"
-print(type(str_value))  # <class 'str'>
-# integer-float conversion
 
-int_value = 20
-float_value = float(int_value)
-print(float_value)  # 20.0
-print(type(float_value))  # <class 'float'>
+# 4. Convert string to integer and add 5
+number = "25"
+number = int(number)
 
-# float-integer conversion
+result = number + 5
 
-float_value = 20.5
-int_value = int(float_value)
-print(int_value)  # 20
-print(type(int_value))  # <class 'int'>
+print("Result:", result)
 
-# integer-boolean conversion
 
-int_value = 1
-bool_value = bool(int_value)
-print(bool_value)  # True
-print(type(bool_value))  # <class 'bool'>
-
-#input with type conversion
-# input() function is used to take input from the user. By default, it takes input as a string. We can convert it to other data types using type conversion functions like int(), float(), etc.
-age = int(input("Enter your age: "))
-print("Your age is:", age)
-
-# output: 
-# Enter your age: 20
-# Your age is: 20
-
-height = float(input("Enter your height: "))
-print("Your height is:", height)
-
-# output:
-# Enter your height: 5.6
-# Your height is: 5.6
-#string input 
-
-string_input = input("Enter a string: ")
-print("You entered:", string_input)
-
-# output:
-# Enter a string: Hello
-# You entered: Hello
+# 5. Print data types
+print(type("Hello"))
+print(type(10))
+print(type(10.5))
+print(type(True))
